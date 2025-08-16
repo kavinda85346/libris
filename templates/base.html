@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+</head>
+<body>
+    <h1>Library Management</h1>
+    <a href="{{ url_for('index') }}">Home</a> | 
+    <a href="{{ url_for('add_book') }}">Add Book</a>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
